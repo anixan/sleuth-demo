@@ -37,7 +37,7 @@ public class SleuthDemoApplication {
 	@RequestMapping("/")
 	public String home() {
 		LOG.log(Level.INFO, "ET Called Home");
-		return "Hello World";
+		return "Hello Earth";
 	}
 
 	@RequestMapping("/callhome")
